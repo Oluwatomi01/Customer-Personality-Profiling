@@ -149,8 +149,3 @@ The pipeline transforms raw audio into helpful insights for **improved customer 
 ## **📜 License**
 
 This project is licensed under the **MIT License**.
-
----
-
-✅ Do you want me to **also include an Architecture Diagram (in Markdown or PNG)** for the README, and **generate a `requirements.txt` for your stack**?
-Or should I also **write a sample `main.py` entry point** for the pipeline?
