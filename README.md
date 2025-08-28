@@ -13,7 +13,7 @@ This project processes **financial call center conversations** to:
    * Cooperative
    * Short-tempered
    * Reserved
-   * Dominant
+   * Neutral
    * Friendly
      
 4. **Generate practical agent engagement suggestions** based on predicted temperament.
@@ -107,8 +107,8 @@ The pipeline transforms raw audio into helpful insights for **improved customer 
 1. **Clone this repository**:
 
    ```bash
-   git clone https://github.com/your-username/call-center-personality-profiling.git
-   cd call-center-personality-profiling
+   git clone https://github.com/your-username/customer-personality-profiling.git
+   cd customer-personality-profiling
    ```
 2. **Install dependencies**:
 
