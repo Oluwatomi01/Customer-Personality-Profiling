@@ -86,7 +86,6 @@ The pipeline transforms raw audio into helpful insights for **improved customer 
 * **ASR:** `openai-whisper`
 * **Feature Engineering:** `openSMILE`, `scikit-learn`
 * **Modeling:** `scikit-learn`, `xgboost`
-* **Visualization:** `matplotlib`, `seaborn`
 
 
 ## **📊 Metrics for Evaluation**
