@@ -47,12 +47,7 @@ The pipeline transforms raw audio into helpful insights for **improved customer 
 ├── notebooks/           # Jupyter notebooks for EDA, modeling
 ├── src/                 # Core pipeline scripts
 │   ├── asr.py           # Whisper-based transcription
-│   ├── features.py      # Audio & text feature extraction
-│   ├── model.py         # Personality prediction
-│   ├── suggestions.py   # Rule-based agent tips
-│   └── utils.py         # Helpers for JSON output, configs
 ├── models/              # Trained models
-├── outputs/             # Sample JSON reports
 ├── requirements.txt
 └── README.md
 ```
