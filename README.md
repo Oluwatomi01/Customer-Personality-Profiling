@@ -6,8 +6,8 @@
 
 This project processes **financial call center conversations** to:
 
-1. **Transcribe** customer-agent conversations from dual-channel audio(i.e agent and customer)
-2. **Extract features** from both **audio** (pitch, energy, speaking rate) and **text** (sentiment, n-grams).
+1. **Transcribe** customer-agent conversations from diarized audio(i.e customer)
+2. **Extract features** from both **audio** and **text** (sentiment, n-grams).
 3. **Predict the customer’s personality category** into one of **5 profiles**:
 
    * Cooperative
@@ -18,7 +18,7 @@ This project processes **financial call center conversations** to:
      
 4. **Generate practical agent engagement suggestions** based on predicted temperament.
 
-The pipeline transforms raw audio into helpful insights for **improved customer experience and agent performance**.
+This pipeline transforms raw audio into action points for **improved customer experience and agent performance**.
 
 
 ## **The Goals**
@@ -84,7 +84,7 @@ The pipeline transforms raw audio into helpful insights for **improved customer 
 
 * **Audio Processing:** `librosa`, `pydub`
 * **ASR:** `openai-whisper`
-* **Feature Engineering:** `openSMILE`, `scikit-learn`
+* **Feature Engineering:** `scikit-learn`
 * **Modeling:** `scikit-learn`, `xgboost`
 
 
